@@ -1,2 +1,8 @@
 # bashfritz
 A game for Linux made with Bash: BashFritz.
+
+To increase my BASH level, I decided to make a game based on the classic Fritz game. I have seen few games written in pure Bash searching the web and I think many more could be made. The advantage of BASH games is that most Linux distros have BASH pre-installed and you don't need to have a graphical user environment (GUI) installed to play.
+In this game, you are the pilot of a fighter plane and earn points when you bombard buildings in enemy cities. When you have bombed all the buildings in the city, you land, increase your level and go to another city.
+The higher the level, the more difficult it is because the faster the plane flies. Up to what level are you capable of reaching, pilot?
+
+Video showing the game of my Youtube channel: https://www.youtube.com/watch?v=Y0df-MQmdrI
