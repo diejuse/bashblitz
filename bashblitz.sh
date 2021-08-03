@@ -3,8 +3,8 @@ function rep { for i in $(seq 1 1 $2);do printf "%s" "$1";done }
 function writeLevel { 
     printf "\e[26;11H\e[33m%3s" "$LEVEL"; 
     local text temp_arr
-    if [ -f "bashfritz.max" ]; then
-        text=$(cat city.max)
+    if [ -f "bashblitz.max" ]; then
+        text=$(cat bashblitz.max)
         readarray -d \| -t temp_arr <<< $text
         MAXLEVEL=${temp_arr[0]};MAXSCORE=${temp_arr[1]}
     else MAXLEVEL="0";MAXSCORE="0 "; fi
