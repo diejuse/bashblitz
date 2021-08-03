@@ -7,8 +7,8 @@ In this game, you are the pilot of a fighter plane and earn points when you bomb
 The higher the level, the more difficult it is because the faster the plane flies. Up to what level are you capable of reaching, pilot?
 
 Features:
-- Displayed correctly on TTY and PTY.
-- Detects if the size of the terminal is adequate to view the game correctly.
-- Exits the game if you try to resize the terminal.
-- Save the score and the maximum level reached.
-- Sound when the bomb explodes. (beeps).
+- It displays correctly on TTY and PTY.
+- It detects if the size of the terminal is adequate to view the game correctly.
+- It exits the game if you try to resize the terminal.
+- It saves the maximum score and the maximum level reached.
+- It sounds when the bomb explodes. (beeps).
