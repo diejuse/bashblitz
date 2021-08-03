@@ -51,7 +51,7 @@ function motor {
             if ((LEVEL>MAXLEVEL)); then
                 printf "\e[34m\e[$((LINES-CH+3));$((X0-7*2+1))HNew record! You have exceeded your maximum LEVEL!)";change=1;((MAXLEVEL=LEVEL))
             fi
-            if ((change==1)); then echo "$MAXLEVEL|$MAXSCORE" > city.max ; fi
+            if ((change==1)); then echo "$MAXLEVEL|$MAXSCORE" > bashblitz.max ; fi
             printf "\e[36m\e[$((LINES-CH+5));$((X0-7*2+1))HDo you want to play again? Choose 'y' or 'n'" 
             while read -n 1 key; do if [[ $key == y ]]; then ans="y";break; elif [[ $key == n ]]; then ans="n";break;fi;done
             if ((ans=="y"));then init;welcome;else fin;fi
