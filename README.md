@@ -7,6 +7,7 @@ In this game, you are the pilot of a fighter plane and earn points when you bomb
 The higher the level, the more difficult it is because the faster the plane flies. Up to what level are you capable of reaching, pilot?
 
 How to play?
+
 1º Download bashblitz.sh
 2º Open a terminal (tty or pty) and go to the path where you downloaded the file.
 2º sh bashblitz.sh
