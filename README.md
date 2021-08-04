@@ -11,4 +11,4 @@ Features:
 - It detects if the size of the terminal is adequate to view the game correctly.
 - It exits the game if you try to resize the terminal.
 - It saves the maximum score and the maximum level reached.
-- It sounds when the bomb explodes. (beeps).
+- It sounds when the bomb explodes. (beeps). It uses speaker-test if it is installed, otherwise it generates a beep with ANSI sequences.
