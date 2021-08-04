@@ -17,7 +17,6 @@ function initCity {
     X=-$PL+2;((Y=CH-5));B=0;BY=0;BLOQLEFT=CW+1
     if ((LEVEL<=7));then SPEED=$(awk -v l=$LEVEL 'BEGIN {printf "%.2f",0.45-l*0.05}');
     else SPEED=$(awk -v l=$LEVEL 'BEGIN {printf "%.2f",0.11-(l-8)*0.01}');fi
-    SPEED0=$SPEED
     local y x al txt="\e[1;37m"
     for ((y=$((LINES-CH));y<$((LINES-1));y++));do txt+="\e[$((y));$((X0-7*2+1))H$(rep '  ' $((CW+14)) )";done   
     txt+="\e[33m"
