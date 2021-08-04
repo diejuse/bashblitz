@@ -6,6 +6,11 @@ To increase my BASH level, I decided to make a game based on the classic Fritz g
 In this game, you are the pilot of a fighter plane and earn points when you bombard buildings in enemy cities. When you have bombed all the buildings in the city, you land, increase your level and go to another city.
 The higher the level, the more difficult it is because the faster the plane flies. Up to what level are you capable of reaching, pilot?
 
+How to play?
+1º Download bashblitz.sh
+2º Open a terminal (tty or pty) and go to the path where you downloaded the file.
+2º sh bashblitz.sh
+
 Features:
 - It displays correctly on TTY and PTY.
 - It detects if the size of the terminal is adequate to view the game correctly.
