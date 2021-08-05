@@ -9,8 +9,9 @@ The higher the level, the more difficult it is because the faster the plane flie
 How to play?
 
 1.     Download bashblitz.sh
-2.     Open a terminal (tty or pty) and go to the path where you downloaded the file.
-3.     sh bashblitz.sh
+        (last uploaded August 6, 2021)
+3.     Open a terminal (tty or pty) and go to the path where you downloaded the file.
+4.     bash bashblitz.sh
 
 Features:
 - It displays correctly on TTY and PTY.
