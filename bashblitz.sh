@@ -95,7 +95,7 @@ function init {
     trap '' 2;trap 'fin' WINCH
     stty -echo -icanon time 0 min 0;printf "\e[40m";clear;printf "\e[0m"
     read -r LINES COLUMNS < <(stty size)
-    if ((COLUMNS<97 || LINES<32));then printf "\e[1;44;33m\n /---------\\\ \n |BASHBLITZ| by Diejuse\n \\---------/ \n\nYour terminal has $COLUMNS columns and $LINES lines.\nIt must have 97 or more columns and 32 or more files to play this game.\n\n\e[40;37m\e[?25h";stty echo;exit;fi
+    if ((COLUMNS<97 || LINES<32));then printf "\e[1;44;33m\n /---------\\\ \n |BASHBLITZ| by Diejuse\n \\---------/ \n\nYour terminal has $COLUMNS columns and $LINES lines.\nIt must have 97 or more columns and 32 or more lines to play this game.\n\n\e[40;37m\e[?25h";stty echo;exit;fi
     printf "\e[?25l"
     CH=29;CW=19;X0=43;Y0=$((LINES-2));LEVEL=1;SCORE=0;PL=8
     local y x txt="\e[37m"
